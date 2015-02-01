@@ -1,1 +1,1 @@
- Rails Practise Tutprials with Hands on examples 
+ Rails Practise Tutorials with Hands on examples 
