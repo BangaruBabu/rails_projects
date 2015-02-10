@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
+gem 'bootstrap-sass', '3.3.0'
+# Use jquery as the JavaScript library
+gem 'jquery-rails','4.0.3'
 
 group :development, :test do
 
@@ -30,20 +33,17 @@ end
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
-# Use jquery as the JavaScript library
-gem 'jquery-rails','4.0.3'
+
+
 
 group :test do
-
   # Use RSpec as a Testing framework for Unit Testing
   gem 'rspec-rails','2.9.0'
   gem 'capybara','2.4.4'
 end
 
 group :production do
-
   gem 'pg','0.18.1'
-
 end
 
 
